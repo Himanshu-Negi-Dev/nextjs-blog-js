@@ -1,0 +1,37 @@
+.header_class {
+    min-width: 100vw;
+    height: 70px;
+    background: rgb(65, 27, 65);
+  }
+  
+  .nav_class {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav_logo h2 {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .nav_links ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav_links ul li a {
+    padding: 1rem 2rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .nav_class {
+      max-width: 1170px;
+      margin: 0 auto;
+    }
+  }
+  
